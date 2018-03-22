@@ -16,7 +16,7 @@ function displayAnswer() {
 };
 
 function findAnswer() {
-	var answers = ['Yes!', 'It is certain', 'It is decidedly so', 'Without a doubt', 
+	const answers = ['Yes!', 'It is certain', 'It is decidedly so', 'Without a doubt', 
 		'Definitely', 'You can count on it', 'Signs point to Yes', 'Outlook good', 
 		'Most likely', 'The force is with you', 'It\'s all too hazy, ask later', 'Ask again', 
 		'I cannot say', 'No way to predict', 'Concentrate and ask again', 'Don\'t count on it', 
@@ -28,4 +28,7 @@ function reset() {
 	$('.display').replaceWith(`<div class="center-circle"><h2 class="display">8</h2></div>`);
 };
 
+
+//add more answers options (yoda, homer, sarcastic...)
+//add dropdown? for personality change
 
